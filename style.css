@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+}
+
+/* Container dan Layout */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+/* Artikel Styling */
+.artikel {
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+.artikel h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.artikel p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Source Link Styling */
+.artikel-source {
+    margin-top: 20px; /* Memberikan ruang di atas link */
+    padding: 10px;
+    background-color: #e9ecef; /* Latar belakang untuk menonjolkan bagian source */
+    border-left: 5px solid #007bff; /* Garis biru di sisi kiri */
+    font-size: 0.9em;
+}
+
+.artikel-source a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.artikel-source a:hover {
+    text-decoration: underline;
+}
+
+/* Garis Pemisah (HR) Styling */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 40px 0;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #343a40;
+    color: white;
+    font-size: 0.8em;
+    margin-top: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
